@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link start here----------------- -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- css link end here----------------- -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="images/pav2.png" type="image/x-icon">
+    <!-- bootstrap link -->
+    <title>Weather Application</title>
+  </head>
+  <body class="main-body">
+    <!-- full weather section start here----------------- -->
+    <section class="main-section2">
+
+
+      <!-- navgation section start here------------ -->
+      <div class="weather-navigation mb-2">
+
+        <!-- first element start here--------- -->
+        <div class="elements">
+          <div class="weather-logo-name">
+            <div class="weather-logo ">
+              <a href="#"><i class="fa-solid fa-cloud cloud-logo"></i></a>
+            </div>
+            <div class="weather-name ">
+              <a class="global" href="#">Global.Weather</a>
+            </div>
+          </div>
+        </div> 
+        <!-- first element end here--------- -->
+
+
+        <!-- second element start here--------- -->
+        <div class="elements">
+          <input class="search-city" type="search" placeholder="Search City" />
+        </div>
+        <!-- second element end here--------- -->
+
+        <!-- third element start here--------- -->
+        <div class="  elements">
+          <div class="location-logo-name">
+            <div class="location-logo">
+              <a href="#"
+                ><i class="fa-solid fa-location-crosshairs loc-logo"></i
+              ></a>
+            </div>
+            <div class="location-name">
+              <h6 class="current-location">Current Location</h6>
+            </div>
+          </div>
+        </div>
+        <!-- third element end here----------->
+      </div>
+      <!-- navgation section end here------------ -->
+
+
+
+      <!-- weather details section start here---------------- -->
+      <div class="row weather-details">
+
+
+        <!-- left-side start here--------------- -->
+
+        
+        <div class="col-md-4  left-side">
+          <!-- current weather start here-------------- -->
+          <div class="current-weather">
+            <div class="current-weather-inner">
+              <!-- first--------- -->
+              <div class="now">
+                <h6 class="now">Now</h6>
+              </div>
+              <!-- first--------- -->
+              <div class="degree-climate">
+                <div><a class="twenty-three" href="#">23</a></div>
+                <div>
+                  <a href="#"
+                    ><i class="fa-regular fa-circle circle-one"></i
+                  ></a>
+                </div>
+                <div class="ccccc"><a class="cccc" href="#">C</a></div>
+                <div class="rain-cloud-logo1">
+                  <a href="#"
+                    ><i class="fa-solid fa-cloud-sun-rain rain-cloud-logo"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- second--------- -->
+              <div>
+                <h6 class="few-clouds">Few Clouds</h6>
+                <hr style="color: white" />
+              </div>
+              <!-- third------------ -->
+              <div class="date d-flex">
+                <div class="date1">
+                  <a href="#"
+                    ><i class="fa-solid fa-calendar-days calender-logo"></i
+                  ></a>
+                </div>
+                <div class="date2">
+                  <a class="calender-logo-date">Tuesday 11.April</a>
+                </div>
+              </div>
+
+              <!-- fourth----------- -->
+              <div class="location1 d-flex">
+                <div class="location2">
+                  <a href="#"
+                    ><i class="fa-solid fa-location-dot calender-logo"></i
+                  ></a>
+                </div>
+                <div class="location3">
+                  <a class="calender-logo-date">Sun Fransisco, USA</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- current weather end here-------------- -->
+
+          <!-- 5 dayforcast start here--------------- -->
+          <div class="forcast-time">
+            <a href="#"><i class="fa-solid fa-cloud-moon-rain five-day"></i></a>
+            <a class="fiva-day-forcast" href="#">5 day Forcast</a>
+          </div>
+          <!-- 5 day forcast end here=--------------- -->
+
+          <!-- forecast start here------------------- -->
+          <div class="forecast">
+            <div class="forecast-inner">
+              <!-- first day start here------------------- -->
+              <div class="all-days">
+                <!-- tem start here---------------------- -->
+                <div class="temp">
+                  <div>
+                    <i
+                      class="fa-solid fa-cloud-moon-rain"
+                      style="color: #0fcfff"
+                    ></i>
+                  </div>
+                  <div><a class="twotwo" href="#">22</a></div>
+                  <a class="deg" href="#">deg</a>
+                </div>
+                <!-- date start here---------- -->
+                <div class="date">
+                  <h6 class="dd">13 April</h6>
+                </div>
+                <!-- day start here-------------- -->
+                <div class="day">
+                  <h6 class="dd">Monday</h6>
+                </div>
+              </div>
+              <!-- first day end here------------------- -->
+
+
+
+
+              <!-- second day start here------------------- -->
+              <div class="all-days">
+                <!-- tem start here---------------------- -->
+                <div class="temp">
+                  <div>
+                    <i
+                      class="fa-solid fa-cloud-moon-rain"
+                      style="color: #0fcfff"
+                    ></i>
+                  </div>
+                  <div><a class="twotwo" href="#">22</a></div>
+                  <a class="deg" href="#">deg</a>
+                </div>
+                <!-- date start here---------- -->
+                <div class="date">
+                  <h6 class="dd">14 April</h6>
+                </div>
+                <!-- day start here-------------- -->
+                <div class="day">
+                  <h6 class="dd">Tuesday</h6>
+                </div>
+              </div>
+              <!-- second day end here------------------- -->
+
+
+
+
+              <!-- third day start here------------------- -->
+              <div class="all-days">
+                <!-- tem start here---------------------- -->
+                <div class="temp">
+                  <div>
+                    <i
+                      class="fa-solid fa-cloud-moon-rain"
+                      style="color: #0fcfff"
+                    ></i>
+                  </div>
+                  <div><a class="twotwo" href="#">22</a></div>
+                  <a class="deg" href="#">deg</a>
+                </div>
+                <!-- date start here---------- -->
+                <div class="date">
+                  <h6 class="dd">15 April</h6>
+                </div>
+                <!-- day start here-------------- -->
+                <div class="day">
+                  <h6 class="dd">Wednesday</h6>
+                </div>
+              </div>
+              <!-- third day end here------------------- -->
+
+
+
+
+              <!-- forth day start here------------------- -->
+              <div class="all-days">
+                <!-- tem start here---------------------- -->
+                <div class="temp">
+                  <div>
+                    <i
+                      class="fa-solid fa-cloud-moon-rain"
+                      style="color: #0fcfff"
+                    ></i>
+                  </div>
+                  <div><a class="twotwo" href="#">22</a></div>
+                  <a class="deg" href="#">deg</a>
+                </div>
+                <!-- date start here---------- -->
+                <div class="date">
+                  <h6 class="dd">16 April</h6>
+                </div>
+                <!-- day start here-------------- -->
+                <div class="day">
+                  <h6 class="dd">Thursday</h6>
+                </div>
+              </div>
+              <!-- forth day end here------------------- -->
+
+
+
+              <!-- fifth day start here------------------- -->
+              <div class="all-days">
+                <!-- tem start here---------------------- -->
+                <div class="temp">
+                  <div>
+                    <i
+                      class="fa-solid fa-cloud-moon-rain"
+                      style="color: #0fcfff"
+                    ></i>
+                  </div>
+                  <div><a class="twotwo" href="#">22</a></div>
+                  <a class="deg" href="#">deg</a>
+                </div>
+                <!-- date start here---------- -->
+                <div class="date">
+                  <h6 class="dd">17 April</h6>
+                </div>
+                <!-- day start here-------------- -->
+                <div class="day">
+                  <h6 class="dd">Friday</h6>
+                </div>
+              </div>
+              <!-- fifth day end here------------------- -->
+
+
+            </div>
+          </div>
+          <!-- forecast end here------------------- -->
+        </div>
+        <!-- left-side end here--------------- -->
+
+
+
+
+
+
+        <!-- right-side start here--------------- -->
+        <div class="col-md-8 col-sm-6 right-side">
+          <!-- todays highlight start here----------- -->
+          <div class="todays-highlight">
+            <div class=" todays-highlight-inner">
+              <!-- highlight start here---------- -->
+              <div class="highlight">
+                <a class="todays-highlight1" href="#">Todays Highlight</a>
+              </div>
+              <!-- highlight start here---------- -->
+
+              <!-- air and sunrise start here--------------- -->
+              <div class=" air-sunrise">
+                <!-- air start here-------------- -->
+                <div class=" air">
+                  <!--  quality-fair start here------------ -->
+                  <div class="quality-fair">
+                    <div class="quality">
+                      <h6 class="air-quality">Air Quality Index</h6>
+                    </div>
+                    <div class="fair">
+                      <h6 class="fair1">Fair</h6>
+                    </div>
+                  </div>
+                  <!--  quality-fair end here------------ -->
+
+                  <!-- component start here----------------- -->
+                  <div class="component-amount">
+                    <div class="component-logo">
+                      <a href="#"><i class="fa-solid fa-wind wind-logo"></i></a>
+                    </div>
+                    <div class="components">
+                      <h6 class="component-element">SO2</h6>
+                      <h3 class="component-element-amount">10.44</h3>
+                    </div>
+                    <div class="components">
+                      <h6 class="component-element">NO2</h6>
+                      <h3 class="component-element-amount">16.40</h3>
+                    </div>
+                    <div class="components">
+                      <h6 class="component-element">H20</h6>
+                      <h3 class="component-element-amount">9.44</h3>
+                    </div>
+                    <div class="components">
+                      <h6 class="component-element">HE2</h6>
+                      <h3 class="component-element-amount">00.44</h3>
+                    </div>
+                  </div>
+                  <!-- component start here----------------- -->
+                </div>
+                <!-- air end here-------------- -->
+
+                <!-- sunrise-sunset start here---------- -->
+                <div class=" sunrise">
+                  <!--  quality-fair start here------------ -->
+                  <div class="sunrise-sunset">
+                    <div class="quality">
+                      <h6 class="rise-set">Sunrise and Sunset</h6>
+                    </div>
+                  </div>
+                  <!--  quality-fair end here------------ -->
+
+                  <!-- am and pm start here---------------- -->
+                  <div class="am-and-pm">
+                    <!-- am start here----------- -->
+                    <div class="am">
+                      <div class="am-logo">
+                        <a href="#"><i class="fa-solid fa-sun sun-logo"></i></a>
+                      </div>
+                      <div class="am-time">
+                        <h6 class="ssss">sunrise</h6>
+                        <h3 class="ssss-time">6:05 AM</h3>
+                      </div>
+                    </div>
+                    <!-- am end here----------- -->
+
+                    <!-- pm start here------------ -->
+                    <div class="pm">
+                      <div class="pm-logo">
+                        <a href="#"
+                          ><i class="fa-solid fa-moon sun-logo"></i
+                        ></a>
+                      </div>
+                      <div class="pm-time">
+                        <h6 class="ssss">sunset</h6>
+                        <h3 class="ssss-time">7:05 PM</h3>
+                      </div>
+                    </div>
+                    <!-- pm end here------------ -->
+                  </div>
+                  <!-- am and pm end here---------------- -->
+                </div>
+                <!-- sunrise-sunset end here---------- -->
+              </div>
+              <!-- air and sunrise end here--------------- -->
+
+              <!-- all properties start here---------------- -->
+              <div class=" all-propertise">
+                <!-- property one start here------------ -->
+                <div class=" propery-1">
+                  <h6 class="pressures">Pressure</h6>
+                  <div class="property-logo-amount">
+                    <div class="property-logo">
+                      <a href="#"
+                        ><i class="fa-solid fa-water pressure-logo"></i
+                      ></a>
+                    </div>
+                    <div class="property-amount">
+                      <h3 class="property-amount1">1017hPa</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- property one end here------------ -->
+
+                <!-- property two start here------------ -->
+                <div class=" propery-1">
+                  <h6 class="pressures">Visibility</h6>
+                  <div class="property-logo-amount">
+                    <div class="property-logo">
+                      <a href="#"
+                        ><i class="fa-solid fa-eye pressure-logo"></i
+                      ></a>
+                    </div>
+                    <div class="property-amount">
+                      <h3 class="property-amount1">10Km</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- property two end here------------ -->
+
+                <!-- property three start here-------------- -->
+                <div class=" propery-1">
+                  <h6 class="pressures">Humidity</h6>
+                  <div class="property-logo-amount">
+                    <div class="property-logo">
+                      <a href="#"
+                        ><i class="fa-solid fa-droplet pressure-logo"></i
+                      ></a>
+                    </div>
+                    <div class="property-amount">
+                      <h3 class="property-amount1">100%</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- property three start here-------------- -->
+
+                <!-- property four start here------------- -->
+                <div class="propery-1">
+                  <h6 class="pressures">Feel Like</h6>
+                  <div class="property-logo-amount">
+                    <div class="property-logo">
+                      <a href="#"
+                        ><i class="fa-solid fa-flask-vial pressure-logo"></i
+                      ></a>
+                    </div>
+                    <div class="property-amount">
+                      <h3 class="property-amount1">24degC</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- property four end here------------- -->
+              </div>
+              <!-- all properties end here---------------- -->
+            </div>
+          </div>
+          <!-- todays highlight end here----------- -->
+
+          <div class="today-at">
+            <h6 class="todays-at">Today At</h6>
+          </div>
+
+          <!-- todays overview start here--------------- -->
+          <div class="todays-overview">
+            <!-- todays overview-inner start here-------------- -->
+            <div class="todays-overview-inner">
+              <!-- first overview start here----------------- -->
+              <div class=" first-overview">
+                <!-- first------------ -->
+                <div class=" first-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="first-overview-time">
+                    <h6 class="overview-times">2 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="first-overview-all-logo">
+                    <a href="#"><i class="fa-solid fa-moon first-three"></i></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="first-overview-temperature">
+                    <a class="first-overview-temp" href="">23 deg</a>
+                  </div>
+                </div>
+
+                <!-- second------------ -->
+                <div class=" first-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="first-overview-time">
+                    <h6 class="overview-times">3 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="first-overview-all-logo">
+                    <a href="#"><i class="fa-solid fa-moon first-three"></i></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="first-overview-temperature">
+                    <a class="first-overview-temp" href="">10 deg</a>
+                  </div>
+                </div>
+
+                <!-- third------------------- -->
+                <div class=" first-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="first-overview-time">
+                    <h6 class="overview-times">5 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="first-overview-all-logo">
+                    <a href="#"><i class="fa-solid fa-moon first-three"></i></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="first-overview-temperature">
+                    <a class="first-overview-temp" href="">8 deg</a>
+                  </div>
+                </div>
+
+                <!-- fourth------------------ -->
+                <div class=" first-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="first-overview-time">
+                    <h6 class="overview-times">9 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="first-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-solid fa-circle first-four"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="first-overview-temperature">
+                    <a class="first-overview-temp" href="">19 deg</a>
+                  </div>
+                </div>
+
+                <!-- fifth------------------------ -->
+                <div class=" first-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="first-overview-time">
+                    <h6 class="overview-times">3 pm</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="first-overview-all-logo">
+                    <a href="#"><i class="fa-solid fa-cloud first-five"></i></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="first-overview-temperature">
+                    <a class="first-overview-temp" href="">23 deg</a>
+                  </div>
+                </div>
+
+                <!-- sixth--- ------------------ -->
+                <div class=" first-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="first-overview-time">
+                    <h6 class="overview-times">5 pm</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="first-overview-all-logo">
+                    <a href="#"><i class="fa-solid fa-cloud first-five"></i></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="first-overview-temperature">
+                    <a class="first-overview-temp" href="">10 deg</a>
+                  </div>
+                </div>
+
+                <!-- seventh----------------------- -->
+                <div class=" first-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="first-overview-time">
+                    <h6 class="overview-times">8 pm</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="first-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-solid fa-cloud-moon-rain first-six"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="first-overview-temperature">
+                    <a class="first-overview-temp" href="">20 deg</a>
+                  </div>
+                </div>
+
+                <!-- eight-------------------- -->
+                <div class=" first-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="first-overview-time">
+                    <h6 class="overview-times">9 pm</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="first-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-solid fa-cloud-moon-rain first-six"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="first-overview-temperature">
+                    <a class="first-overview-temp" href="">22 deg</a>
+                  </div>
+                </div>
+                <!-- first overview end here----------------- -->
+              </div>
+
+              <!-- second overview start here----------------- -->
+              <div class=" second-overview">
+
+
+                <!-- first------------------ -->
+                <div class=" second-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="second-overview-time">
+                    <h6 class="overview-times">12 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="second-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-solid fa-arrow-right arrow-all"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="second-overview-temperature">
+                    <a class="first-overview-temp" href="">5 Km/h</a>
+                  </div>
+                </div>
+
+
+
+                <!-- second-------------- -->
+                <div class=" second-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="second-overview-time">
+                    <h6 class="overview-times">12 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="second-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-sharp fa-solid fa-arrow-up arrow-all"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="second-overview-temperature">
+                    <a class="first-overview-temp" href="">5 Km/h</a>
+                  </div>
+                </div>
+
+
+
+                <!-- third----------------- -->
+                <div class=" second-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="second-overview-time">
+                    <h6 class="overview-times">12 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="second-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-sharp fa-solid fa-arrow-right arrow-all"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="second-overview-temperature">
+                    <a class="first-overview-temp" href="">2 Km/h</a>
+                  </div>
+                </div>
+
+
+
+                <!-- fourth------------------ -->
+                <div class=" second-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="second-overview-time">
+                    <h6 class="overview-times">12 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="second-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-sharp fa-solid fa-arrow-right arrow-all"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="second-overview-temperature">
+                    <a class="first-overview-temp" href="">4 Km/h</a>
+                  </div>
+                </div>
+
+
+
+                <!-- fifth------------------ -->
+                <div class=" second-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="second-overview-time">
+                    <h6 class="overview-times">12 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="second-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-sharp fa-solid fa-arrow-right arrow-all"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="second-overview-temperature">
+                    <a class="first-overview-temp" href="">7 Km/h</a>
+                  </div>
+                </div>
+
+
+
+                <!-- sixth--------------- -->
+                <div class=" second-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="second-overview-time">
+                    <h6 class="overview-times">12 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="second-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-sharp fa-solid fa-arrow-up arrow-all"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="second-overview-temperature">
+                    <a class="first-overview-temp" href="">3 Km/h</a>
+                  </div>
+                </div>
+
+
+
+                <!-- seventh---------------- -->
+                <div class=" second-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="second-overview-time">
+                    <h6 class="overview-times">12 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="second-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-solid fa-arrow-trend-down arrow-all"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="second-overview-temperature">
+                    <a class="first-overview-temp" href="">4 Km/h</a>
+                  </div>
+                </div>
+
+
+
+
+                <!-- eight-------------------- -->
+                <div class=" second-overview-all">
+                  <!-- first overview time-------------- -->
+                  <div class="second-overview-time">
+                    <h6 class="overview-times">12 Am</h6>
+                  </div>
+
+                  <!-- first-overview logo---------- -->
+                  <div class="second-overview-all-logo">
+                    <a href="#"
+                      ><i class="fa-sharp fa-solid fa-arrow-right arrow-all"></i
+                    ></a>
+                  </div>
+
+                  <!-- first-oerview-tempareture------------- -->
+                  <div class="second-overview-temperature">
+                    <a class="first-overview-temp" href="">5 Km/h</a>
+                  </div>
+                </div>
+
+
+
+              </div>
+              <!-- second overview end here----------------- -->
+            </div>
+            <!-- todays overview-inner end here-------------- -->
+          </div>
+          <!-- todays overview end here--------------- -->
+        </div>
+        <!-- right-side end here--------------- -->
+      </div>
+      <!-- weather details section end here---------------- -->
+    </section>
+    <!--full weather section end here----------------- -->
+
+    <!-- link kit code...................... -->
+    <script
+      src="https://kit.fontawesome.com/a5fff4c5b6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap cdn start here---------------- -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap cdn end here---------------- -->''
+
+    <!-- jquery cdn-------------- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- js link-------- -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

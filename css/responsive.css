@@ -1,0 +1,99 @@
+@media(max-width:576px)
+{
+    .main-section2
+    {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-image: url(../images/sky.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        width: 25rem;
+        height: 37rem;
+        border-radius: 20px; 
+        padding: 20px;
+       
+    } 
+    .weather-navigation
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+      
+    }
+    .weather-logo-name
+    {
+        gap: 5px;
+        display: flex;
+        
+    }
+ .cloud-logo
+{
+    font-size: 25px;
+    color: rgb(255, 230, 6);
+}
+
+.global
+{
+    font-size: 20px;
+    text-decoration: none;
+   color: rgb(56, 56, 56);
+    font-weight: 700;
+}
+
+.search-city
+{
+    padding: 2px 2px 2px 5px;
+    border-radius: 15px;
+    border: 1px solid rgb(195, 195, 195);
+    background: transparent;
+    width: 270px;
+}
+
+
+.location-logo-name
+{
+    display: flex;
+    gap: 10px;
+    border-radius: 15px;
+    background:transparent;
+    padding: 2px 5px 0px 5px;
+    border: 1px solid rgb(195, 195, 195);
+    width: 270px;
+    
+}
+
+    .air-sunrise
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+    .all-propertise
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+    
+
+.first-overview
+{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.second-overview
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+}
